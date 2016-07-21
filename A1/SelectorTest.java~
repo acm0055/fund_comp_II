@@ -1,0 +1,142 @@
+import org.junit.Assert;
+import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.Test;
+
+
+public class SelectorTest {
+   
+   /** Fixture initialization (common initialization
+    *  for all tests). **/
+   private int[] a1 = {1, 2, 7, 4, 5, 9}; 
+   private int[] a2 = {9, 5, 4, 7, 2, 1};
+   private int[] a3 = {5, 4, 1, 9, 7, 2};
+   private int[] a4 = {};
+   private int[] a5 = {1, 1, 1, 1, 7};
+   private int[] a6 = {7, 2, 4, 1, 1};
+   
+   private int min = 1;
+   private int max = 9;
+   private int minFirstA1 = 1;
+   private int minLastA2 = 9;
+   private int minThirdA4 = 0; //not true
+   private int minThirdA5 = 0; //not true
+   private int minThirdA6 = 4;
+   
+   @Before public void setUp() {
+      
+   }
+   
+   @Test (expected = IllegalArgumentException.class)
+   public void minNullTest() {
+      Selector.min(null);
+   }
+   
+   @Test (expected = IllegalArgumentException.class)
+   public void minEmptyTest() {
+      Selector.min(a4);
+   }
+   
+   /**
+   Min is first item of array
+   */
+   @Test
+   public void minFirstTest() {
+      Assert.assertEquals("Min in first item of array failed",
+                           Selector.min(a1), min);
+   }
+   
+   /**
+   Min is last item of array
+   */
+   @Test
+   public void minLastTest() {
+      Assert.assertEquals("Min in last item of array failed",
+                           Selector.min(a2), min);
+   }
+   
+   /**
+   Min is middle item of array
+   */
+   @Test
+   public void minMidTest() {
+      Assert.assertEquals("Min in middle item of array failed",
+                           Selector.min(a3), min);
+   }
+   
+   @Test (expected = IllegalArgumentException.class)
+   public void maxNullTest() {
+      Selector.max(null);
+   }
+   
+   @Test (expected = IllegalArgumentException.class)
+   public void maxEmptyTest() {
+      Selector.max(a4);
+   }
+   
+   /**
+   Max is first item of array
+   */
+   @Test
+   public void maxFirstTest() {
+      Assert.assertEquals("Max in first item of array failed",
+                           Selector.max(a2), max);
+   }
+   
+   /**
+   Max is last item of array
+   */
+   @Test
+   public void maxLastTest() {
+      Assert.assertEquals("Max in last item of array failed",
+                           Selector.max(a1), max);
+   }
+   
+   /**
+   Max is middle item of array
+   */
+   @Test
+   public void maxMidTest() {
+      Assert.assertEquals("Max in middle item of array failed",
+                           Selector.max(a3), max);
+   }
+   
+   @Test (expected = IllegalArgumentException.class)
+   public void kthMinNullTest() {
+      Selector.kmin(null, 2);
+   }
+   
+   @Test (expected = IllegalArgumentException.class)
+   public void kthMinEmptyTest() {
+      Selector.kmin(a4, 1);
+   }
+   
+   @Test (expected = IllegalArgumentException.class)
+   public void kthOutOfBoundsMinTest() {
+      Selector.kmin(a3, 10);
+   }
+   
+   @Test (expected = IllegalArgumentException.class)
+   public void kthZeroTest() {
+      Selector.kmin(a3, 0);
+   }
+   
+   @Test (expected = IllegalArgumentException.class)
+   public void kthNotReachedTest() {
+      Selector.kmin(a5, 3);
+   }
+   
+   @Test
+   public void kminFirstTest() {
+      Assert.assertEquals("Failed boundary condition first element",
+             Selector.kmin(a1, 1), minFirstA1);
+   }
+   
+   @Test
+   public void kminLastTest() {
+      Assert.assertEquals("Failed boundary condition last element",
+             Selector.kmin(a2, 6), minLastA2);
+   }
+   
+   
+}

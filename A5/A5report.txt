@@ -1,0 +1,61 @@
+% A5 Lab Report
+% Your Name
+% October 24, 2015
+
+# Benchmarking the ArrayStrand implementation
+All tests for the ArrayStrand implementation where ran using Windows 10 in Safe Mode with Command Prompt in Command Prompt. This was to prevent any errors in data due to non-essential services/programs. The laptop was plugged in to prevent power throttling issues.
+
+## Show that ArrayStrand.cutAndSplice() is O(N)
+The times from the ArrayStrand.cutAndSplice() are listed below:
+*Splice Size:	Time: 	Slope:
+*256			0.047		-
+*512			0.047		-
+*1,024		0.047		-
+*2,048		0.031		-
+*4,096		0.063		-
+*8,192		0.031		-
+*16,384		0.063		3.85x10^-6
+*32,768		0.094		2.87x10^-6
+*65,536		0.125		1.91x10^-6
+*131,072		0.438		3.34x10^-6
+*262,144		0.625		2.38x10^-6
+*524,288		1.219		2.33x10^-6
+These times where obtained by running the DnaSimulation with ecoli.dat with no heap size modifications. Slope was calculated as time divided by splice size. This was to stick to the scientific standard of having the dependent variable time of the y-axis. No data before 16,384 was used due to errata caused by speed variations for small problem sizes. The later errata is most probably due to specific Java VM/operating system errors (background services, memory patching, etc.). The standard deviation of the slope is 7.19x10^-7 sugesting that the slope of the splice size verses runtime is consistently (within a power of ten) of constant slope. Thus suggesting a linear runtime based on splice size.
+
+## Determine the largest power-of-two splice supported with 512M heap
+The largest power-of-two splice supported with 512M had a length of 32,768.
+
+## Determine the largest power-of-two splice supported with 1024M heap
+The largest power-of-two splice supported with 1024M had a length of 131,072.
+
+## Determine the largest power-of-two splice supported as heap doubles
+The largest power-of-two splice was supported with 8192M. This splice reached a length of 1,048,576 before the operating system would not allocate more memory for the Java VM ("Requested array size exceed VM limit")
+
+# Verifying the LinkedStrand implementation
+All tests for the LinkedStrand implementation where ran using Windows 10 in Safe Mode with Command Prompt in Command Prompt. This was to prevent any errors in data due to non-essential services/programs. The laptop was plugged in to prevent power throttling issues.
+
+## Show that LinkedStrand.cutAndSplice() is O(1)
+The times from the LinkedStrand.cutAndSplice() are listed below:
+*Splice Size:	Time:
+*256			0.672
+*512			0.609
+*1,024		0.531
+*2,048		0.516
+*4,096		0.515
+*8,192		0.532
+*16,384		0.531
+*32,768		0.578
+*65,536		0.562
+*131,072		0.703
+*262,144		0.985
+*524,288		1.328
+These times where obtained by running the DnaSimulation with ecoli.dat with no heap size modifications. The errata towards the end as the heap size increased can be explained by the time necessary to obtain and write to the large amounts of ram required to run the program. However even with the errata included in the data set, the standard deviation is .245416 suggesting that the big-Oh runtime is consistently constant.
+
+## Determine the largest power-of-two splice supported with 512M heap
+The largest power-of-two splice supported with 512M had a length of 64,536.
+
+## Determine the largest power-of-two splice supported with 1024M heap
+The largest power-of-two splice supported with 1024M had a length of 131,072.
+
+## Determine the largest power-of-two splice supported as heap doubles
+The largest power-of-two splice was supported with 8192M. This splice reached a length of 1,048,576 before the operating system would not allocate more memory for the Java VM ("Requested array size exceed VM limit")

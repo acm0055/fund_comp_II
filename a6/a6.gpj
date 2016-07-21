@@ -1,0 +1,30 @@
+!1157;s
+J
+SAU0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012-Run\012ADD_EXE_PATH==Y\012
+SCU0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012-Run\012ADD_EXE_PATH==Y\012
+S+U0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012-Run\012ADD_EXE_PATH==Y\012
+SJU0CLASSPATH=+%;%<EXTENSION_CLASSPATHS>\012CLASSPATH+=%<JGRASP_CLASSPATHS>%;\012File\012CLASSPATH+=.%;\012CLASSPATH+=%<SRC_CLASSPATHS>%;\012ProjectOrFile\012PATH+=%<JAVA_BIN_DIR>%;\012PATH+=%<JGRASP_PATHS>%;\012Debug +Debug_Applet\012CLASSPATH=+%;%<INJECTION_CLASSPATHS>\012Compile\012NOT_FOUND_MESSAGE==Make sure you have the full JDK, not just the JRE, installed.\\nThe JDK is available from http://www.oracle.com/technetwork/java/index.html.\012Run_Applet +Debug_Applet\012ADD_APPLETVIEWER_CLASSPATH==Y\012Document\012CLASSPATH=+%;%<TOOL_CLASSPATHS>\012CLASSPATH+=%<CLASSES_DIR>%;\012
+SOU0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012-Run\012ADD_EXE_PATH==Y\012
+SyU0PATH+=%<PYTHON_PATH>%;\012PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+SPU0
+s#i0
+s#k0
+s#j0
+s#l0
+!123;g
+%\011GameBoard.java
+%\011Tnetennba.java
+%\011WordSearchBoard.java
+%\011WordSearchGame.java
+%\011WordSearchGameFactory.java
+!123;f
+%\011GameBoard.java
+%\011Tnetennba.java
+%\011WordSearchBoard.java
+%\011WordSearchGame.java
+%\011WordSearchGameFactory.java
+!24;l
+%\011TnetennbaTest.java
+!392;t
+jgrJUnit0xr	%\011TnetennbaTest.java	1447135015772:P%\011Tnetennba.java	%\011Tnetennba.java	1447135015772:P%\011TnetennbaTest.java	
+jgrCheckstyle0xr	%\011Tnetennba.java	1447199877900:F	%\011GameBoard.java	1447199877900:F	%\011TnetennbaTest.java	1447199877900:F	%\011WordSearchBoard.java	1447199877900:P	%\011WordSearchGame.java	1447199877900:F	%\011WordSearchGameFactory.java	1447199877900:F	

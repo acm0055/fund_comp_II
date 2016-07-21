@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <ShowTypes>false</ShowTypes>
+  <Version>2</Version>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="1">
+    <Name>dfsRecursive</Name>
+    <Signature>(Ljava/util/LinkedList;Ljava/lang/String;II)Ljava/util/List;</Signature>
+    <DeclaringType>WordSearchBoard</DeclaringType>
+    <Depth>36</Depth>
+  </Scope>
+  <Scope id="0">
+    <Name>dfsRecursive</Name>
+    <Signature>(Ljava/util/LinkedList;Ljava/lang/String;II)Ljava/util/List;</Signature>
+    <DeclaringType>WordSearchBoard</DeclaringType>
+    <Depth>35</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>980</X>
+      <Y>320</Y>
+      <W>104</W>
+      <H>66</H>
+    </Bounds>
+    <LabelLoc>
+      <WO>false</WO>
+    </LabelLoc>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local int` length</Expression>
+      <ViewerClass>_X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>1170</X>
+      <Y>210</Y>
+      <W>279</W>
+      <H>300</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>1</ScopeID>
+      <Expression>`local java.util.List` neighbors</Expression>
+      <ViewerClass>java__lang__Object_LinkedView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>520</X>
+      <Y>170</Y>
+      <W>179</W>
+      <H>226</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local java.util.LinkedList` list</Expression>
+      <ViewerClass>java__lang__Object_LinkedView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Size>
+    <W>1600</W>
+    <H>900</H>
+  </Size>
+  <ESize>
+    <W>1600</W>
+    <H>900</H>
+  </ESize>
+</Canvas>

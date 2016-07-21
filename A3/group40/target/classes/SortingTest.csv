@@ -1,0 +1,20 @@
+Sort 1 is stable,false
+Sort 2 is stable,false
+Sort 3 is stable,false
+Sort 4 is stable,true
+Sort 5 is stable,true
+Sort 1 random arrays,size,1000,time,0.0020357,size,2000,time,0.0072138,size,4000,time,0.0217890,
+Sort 2 random arrays,size,1000,time,0.0003237,size,2000,time,0.0006553,size,4000,time,0.0013587,
+Sort 3 random arrays,size,1000,time,0.0002293,size,2000,time,0.0005157,size,4000,time,0.0010827,
+Sort 4 random arrays,size,1000,time,0.0003598,size,2000,time,0.0007447,size,4000,time,0.0015914,
+Sort 5 random arrays,size,1000,time,0.0158447,size,2000,time,0.0053535,size,4000,time,0.0210791,
+Sort 1 sorted arrays,size,1000,time,0.0017037,size,2000,time,0.0063261,size,4000,time,0.0246291,
+Sort 2 sorted arrays,size,1000,time,0.0001926,size,2000,time,0.0003512,size,4000,time,0.0007275,
+Sort 3 sorted arrays,size,1000,time,0.0015245,size,2000,time,0.0059184,size,4000,time,0.0234044,
+Sort 4 sorted arrays,size,1000,time,0.0007692,size,2000,time,0.0014611,size,4000,time,0.0031541,
+Sort 5 sorted arrays,size,1000,time,0.0000061,size,2000,time,0.0000090,size,4000,time,0.0000166,
+Sort 1 reverse sorted arrays,size,1000,time,0.0017056,size,2000,time,0.0063391,size,4000,time,0.0250319,
+Sort 2 reverse sorted arrays,size,1000,time,0.0001723,size,2000,time,0.0003504,size,4000,time,0.0007380,
+Sort 3 reverse sorted arrays,size,1000,time,0.0012102,size,2000,time,0.0048212,size,4000,time,0.0192260,
+Sort 4 reverse sorted arrays,size,1000,time,0.0007869,size,2000,time,0.0015227,size,4000,time,0.0069205,
+Sort 5 reverse sorted arrays,size,1000,time,0.0025217,size,2000,time,0.0099758,size,4000,time,0.0392195,

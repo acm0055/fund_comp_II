@@ -1,0 +1,28 @@
+Sort 1 is stable,FALSE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sort 2 is stable,FALSE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sort 3 is stable,FALSE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sort 4 is stable,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sort 5 is stable,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sort 1 random arrays,size,500,time,0.0048398,size,1000,time,0.001273,size,2000,time,0.0053504,size,4000,time,0.0225512,size,8000,time,0.0990514,size,16000,time,0.4923248,size,32000,time,2.0886782,size,64000,time,8.72897,size,128000,time,35.7730259
+Sort 2 random arrays,size,500,time,0.0001409,size,1000,time,0.0003147,size,2000,time,0.0006076,size,4000,time,0.0013686,size,8000,time,0.0029891,size,16000,time,0.0044257,size,32000,time,0.007468,size,64000,time,0.0133125,size,128000,time,0.0317836
+Sort 3 random arrays,size,500,time,0.0000654,size,1000,time,0.0001102,size,2000,time,0.0002367,size,4000,time,0.0005227,size,8000,time,0.0011142,size,16000,time,0.0024104,size,32000,time,0.0052965,size,64000,time,0.0115072,size,128000,time,0.0251765
+Sort 4 random arrays,size,500,time,0.0001914,size,1000,time,0.000363,size,2000,time,0.0007399,size,4000,time,0.0015766,size,8000,time,0.0034716,size,16000,time,0.020271,size,32000,time,0.0205404,size,64000,time,0.0521591,size,128000,time,0.0332577
+Sort 5 random arrays,size,500,time,0.0018809,size,1000,time,0.005427,size,2000,time,0.010834,size,4000,time,0.0204322,size,8000,time,0.0824486,size,16000,time,0.3341711,size,32000,time,1.3462154,size,64000,time,5.4170132,size,128000,time,21.8277727
+Sort 1 sorted arrays,size,500,time,0.0035076,size,1000,time,0.0010726,size,2000,time,0.0043345,size,4000,time,0.017265,size,8000,time,0.0684916,size,16000,time,0.2754417,size,32000,time,1.0954652,size,64000,time,4.4396228,size,128000,time,17.5896233
+Sort 2 sorted arrays,size,500,time,0.0000724,size,1000,time,0.000123,size,2000,time,0.0002667,size,4000,time,0.0005805,size,8000,time,0.0012457,size,16000,time,0.0033189,size,32000,time,0.0059064,size,64000,time,0.0128913,size,128000,time,0.0286096
+Sort 3 sorted arrays,size,500,time,0.0004284,size,1000,time,0.0015978,size,2000,time,0.0062943,size,4000,time,0.0246846,size,8000,time,0.0982364,size,16000,time,0.3921663,size,32000,time,1.5665186,size,64000,time,6.2954323,size,128000,time,25.0673778
+Sort 4 sorted arrays,size,500,time,0.0000543,size,1000,time,0.0000844,size,2000,time,0.0001746,size,4000,time,0.0005368,size,8000,time,0.0008666,size,16000,time,0.0023663,size,32000,time,0.0035394,size,64000,time,0.0075257,size,128000,time,0.0162344
+Sort 5 sorted arrays,size,500,time,0.0000114,size,1000,time,0.0000057,size,2000,time,0.0000089,size,4000,time,0.0000162,size,8000,time,0.0000294,size,16000,time,0.0005356,size,32000,time,0.0001302,size,64000,time,0.0002561,size,128000,time,0.0004953
+Sort 1 reverse sorted arrays,size,500,time,0.0002779,size,1000,time,0.001091,size,2000,time,0.0043191,size,4000,time,0.0171937,size,8000,time,0.0688694,size,16000,time,0.2757694,size,32000,time,1.1032028,size,64000,time,4.412757,size,128000,time,17.6432331
+Sort 2 reverse sorted arrays,size,500,time,0.000066,size,1000,time,0.0001217,size,2000,time,0.0002589,size,4000,time,0.0005708,size,8000,time,0.0012962,size,16000,time,0.0027784,size,32000,time,0.0059089,size,64000,time,0.013002,size,128000,time,0.0290011
+Sort 3 reverse sorted arrays,size,500,time,0.0003362,size,1000,time,0.0014192,size,2000,time,0.0051254,size,4000,time,0.0204453,size,8000,time,0.0819115,size,16000,time,0.328397,size,32000,time,1.3144598,size,64000,time,5.2675084,size,128000,time,21.1326632
+Sort 4 reverse sorted arrays,size,500,time,0.000048,size,1000,time,0.0000817,size,2000,time,0.0001706,size,4000,time,0.0003778,size,8000,time,0.0009788,size,16000,time,0.001691,size,32000,time,0.0036279,size,64000,time,0.0075831,size,128000,time,0.0164565
+Sort 5 reverse sorted arrays,size,500,time,0.0006283,size,1000,time,0.0024794,size,2000,time,0.0098761,size,4000,time,0.0392061,size,8000,time,0.1567443,size,16000,time,0.6293001,size,32000,time,2.5070615,size,64000,time,10.0580798,size,128000,time,40.2455552
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Random Sort,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Size,500,1000,2000,4000,8000,16000,32000,64000,128000,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sort 1,0.0048398,0.001273,0.0053504,0.0225512,0.0990514,0.4923248,2.0886782,8.72897,35.7730259,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sort 2,0.0001409,0.0003147,0.0006076,0.0013686,0.0029891,0.0044257,0.007468,0.0133125,0.0317836,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sort 3,0.0000654,0.0001102,0.0002367,0.0005227,0.0011142,0.0024104,0.0052965,0.0115072,0.0251765,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sort 4,0.0001914,0.000363,0.0007399,0.0015766,0.0034716,0.020271,0.0205404,0.0521591,0.0332577,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sort 5,0.0018809,0.005427,0.010834,0.0204322,0.0824486,0.3341711,1.3462154,5.4170132,21.8277727,,,,,,,,,,,,,,,,,,,,,,,,,,,
